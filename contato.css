@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.contatos {
+    background:#fff;
+    height: 200px;
+    width: 250px;
+    padding: 50px ;
+    box-shadow: 0 2px 5px rgb(95, 93, 93);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.contato ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.contato ul li {
+    list-style-type: none; 
+
+}
+
+.contato ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.contato__email{
+    background-color: red;
+    transition: .5s ease-in-out;
+
+}
+
+.contato__linkedin{
+    background-color: rgb(0, 47, 255);
+    transition: .5s ease-in-out;
+
+}
+
+.contato__instagram{
+    background-color: purple;
+    transition: .5s ease-in-out;
+}
+
+.contato__linkedin:hover{
+    background-color: aqua;
+}
+
+.contato__instagram:hover{
+    background-color: violet;
+}
+
+.contato__email:hover{
+    background-color: rgb(158, 24, 9)
+}
+
