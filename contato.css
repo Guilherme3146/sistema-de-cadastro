@@ -69,12 +69,16 @@ body {
     transition: .5s ease-in-out;
 }
 
+.contato ul li a:hover{
+    padding-right: 2.5em;
+}
+
 .contato__linkedin:hover{
-    background-color: aqua;
+    background-color: rgb(10, 8, 126);
 }
 
 .contato__instagram:hover{
-    background-color: violet;
+    background-color: rgb(59, 2, 59);
 }
 
 .contato__email:hover{
