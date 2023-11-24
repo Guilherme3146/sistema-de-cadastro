@@ -8,7 +8,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    /*ALINHAMENTO*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contatos {
@@ -42,6 +46,7 @@ body {
 
 .contato ul li {
     list-style-type: none; 
+    position: relative;
 
 }
 
@@ -70,7 +75,8 @@ body {
 }
 
 .contato ul li a:hover{
-    padding-right: 2.5em;
+    padding-right: 2.5rem;
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.582);
 }
 
 .contato__linkedin:hover{
@@ -85,3 +91,7 @@ body {
     background-color: rgb(158, 24, 9)
 }
 
+.notebook{
+    height: 40px;
+    width: 40px;
+}
